@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/9ce0eafded.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-light">
+    <h1>Inventario</h1>
+  </nav>
+  <div class="container-fluid border">
+    <div class="row">
+      <div class="col-8 border principal">
+        <div class="col-12">
+          <table id="table" class="table">
+
+          </table>
+        </div>
+      </div>
+      <div class="col-4 border">
+        <form action="" id="form" class="need-validation p-2" novalidate>
+          <center><h4>Agregar Producto</h4></center>
+          
+          <div class="form-group">
+              <label for="codigo">Codigo: </label>
+              <input type="number" id="codigo" required class="form-control" placeholder="Type here">
+              <div class="valid-feedback">Correct</div>
+              <div class="invalid-feedback">Incorrect</div>
+            </div>
+          <div class="form-group">
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" required class="form-control" placeholder="Type here">
+            <div class="valid-feedback">Correct</div>
+            <div class="invalid-feedback">Incorrect</div>
+          </div>
+          <div class="form-group">
+            <label for="precio">Precio: </label>
+            <input type="number" id="precio" required class="form-control" placeholder="Type here">
+            <div class="valid-feedback">Correct</div>
+            <div class="invalid-feedback">Incorrect</div>
+          </div>
+          <div class="form-group">
+            <label for="cantidad">Cantidad: </label>
+            <input type="number" id="cantidad" required class="form-control" placeholder="Type here">
+            <div class="valid-feedback">Correct</div>
+            <div class="invalid-feedback">Incorrect</div>
+          </div>
+          <div class="form-group">
+              <label for="descripcion">Descripcion: </label>
+              <input type="text" id="descripcion" required class="form-control" placeholder="Type here">
+              <div class="valid-feedback">Correct</div>
+              <div class="invalid-feedback">Incorrect</div>
+            </div>
+          <button type="button" id="btnAdd" class="btn btn-outline-success"><i class="fas fa-user-plus"></i>Agregar Producto</button>
+          <a href="busqueda.html" class="btn btn-outline-primary"><i class="fas fa-search"></i>  Buscar</a>
+        </form>
+        
+      </div>
+      
+    </div>
+    
+  </div>
+</body>
+<script src="main.js" type="module"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</html>

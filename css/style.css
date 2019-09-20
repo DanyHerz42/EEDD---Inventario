@@ -1,0 +1,47 @@
+table thead tr:hover{
+    background-color: white;
+    cursor: auto;
+}
+
+table tr:hover{
+    background-color: rgba(128, 128, 128, 0.377);
+    cursor: pointer;
+}
+
+.form-group{
+    height: 80px;
+    box-sizing: border-box;
+}
+
+.principal{
+    height: 550px;
+    overflow-y: scroll;
+}
+.formRegistro{
+    position: fixed;
+    top: 11%;
+    left: 32%;
+    transform: translateX(-50%), translateY(-50%);
+    width: 480px;
+    height: 500px;
+    z-index: 5;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.877);
+    border-radius: 8px;
+    background-color: #333333;
+}
+
+.divBlack{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    background: rgba(0, 0, 0, 0.425);
+}
+
+.form-group{
+    height: 70px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
